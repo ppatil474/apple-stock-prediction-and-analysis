@@ -1,0 +1,131 @@
+
+A.
+Name: numpy
+Version: 1.24.3
+Summary: Fundamental package for array computing in Python
+Home-page: https://www.numpy.org
+Author: Travis E. Oliphant et al.
+Author-email: 
+License: BSD-3-Clause
+Requires: 
+Required-by: astropy, blis, bokeh, Bottleneck, contourpy, daal4py, datashader, datashape, fst-pso, FuzzyTM, gensim, h5py, holoviews, hvplot, imagecodecs, imageio, imbalanced-learn, matplotlib, miniful, mkl-fft, mkl-random, modin, numba, numexpr, opt-einsum, pandas, patsy, pyarrow, pyerfa, pyFUME, PyWavelets, scikit-image, scikit-learn, scipy, seaborn, simpful, spacy, statsmodels, tables, tensorboard, tensorflow-intel, thinc, tifffile, transformers, xarray, yfinance
+
+B.
+Name: pandas
+Version: 2.0.3
+Summary: Powerful data structures for data analysis, time series, and statistics
+Home-page: 
+Author: 
+Author-email: The Pandas Development Team <pandas-dev@python.org>
+License: BSD 3-Clause License
+
+Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team
+All rights reserved.
+
+Copyright (c) 2011-2023, Open source contributors.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+* Redistributions of source code must retain the above copyright notice, this
+  list of conditions and the following disclaimer.
+
+* Redistributions in binary form must reproduce the above copyright notice,
+  this list of conditions and the following disclaimer in the documentation
+  and/or other materials provided with the distribution.
+
+* Neither the name of the copyright holder nor the names of its
+  contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Requires: numpy, numpy, python-dateutil, pytz, tzdata
+Required-by: bokeh, datashader, FuzzyTM, holoviews, hvplot, modin, mplfinance, panel, seaborn, statsmodels, xarray, yfinance
+
+C.
+Name: matplotlib
+Version: 3.7.2
+Summary: Python plotting package
+Home-page: https://matplotlib.org
+Author: John D. Hunter, Michael Droettboom
+Author-email: matplotlib-users@python.org
+License: PSF
+Requires: contourpy, cycler, fonttools, kiwisolver, numpy, packaging, pillow, pyparsing, python-dateutil
+Required-by: mplfinance, seaborn
+
+D.
+Name: mplfinance
+Version: 0.12.10b0
+Summary: Utilities for the visualization, and visual analysis, of financial data
+Home-page: http://github.com/matplotlib/mplfinance
+Author: MPL Developers
+Author-email: matplotlib-users@python.org
+License: BSD-style
+Requires: matplotlib, pandas
+
+E.
+Name: statsmodels
+Version: 0.13.5
+Summary: Statistical computations and models for Python
+Home-page: https://www.statsmodels.org/
+Author: 
+Author-email: 
+License: BSD License
+Requires: numpy, packaging, pandas, patsy, scipy
+
+F.
+Name: yfinance
+Version: 0.2.32
+Summary: Download market data from Yahoo! Finance API
+Home-page: https://github.com/ranaroussi/yfinance
+Author: Ran Aroussi
+Author-email: ran@aroussi.com
+License: Apache
+Requires: appdirs, beautifulsoup4, frozendict, html5lib, lxml, multitasking, numpy, pandas, peewee, pytz, requests
+Required-by:
+
+G.
+Name: tensorflow
+Version: 2.14.0
+Summary: TensorFlow is an open source machine learning framework for everyone.
+Home-page: https://www.tensorflow.org/
+Author: Google Inc.
+Author-email: packages@tensorflow.org
+License: Apache 2.0
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: absl-py, astunparse, flatbuffers, gast, google-pasta, grpcio, h5py, keras, libclang, ml-dtypes, numpy, opt-einsum, packaging, protobuf, setuptools, six, tensorboard, tensorflow-estimator, tensorflow-io-gcs-filesystem, termcolor, typing-extensions, wrapt
+Required-by: dopamine-rl
+
+H.
+Name: keras
+Version: 2.14.0
+Summary: Deep learning for humans.
+Home-page: https://keras.io/
+Author: Keras team
+Author-email: keras-users@googlegroups.com
+License: Apache 2.0
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: 
+Required-by: tensorflow
+
+I.
+Name: scikit-learn
+Version: 1.2.2
+Summary: A set of python modules for machine learning and data mining
+Home-page: http://scikit-learn.org
+Author: 
+Author-email: 
+License: new BSD
+Location: /usr/local/lib/python3.10/dist-packages
+Requires: joblib, numpy, scipy, threadpoolctl
+Required-by: bigframes, fastai, imbalanced-learn, librosa, mlxtend, qudida, sklearn-pandas, yellowbrick
